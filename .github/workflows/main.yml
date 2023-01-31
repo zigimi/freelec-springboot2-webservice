@@ -7,7 +7,7 @@
 
 #새로 추가된 내용입니다. (11) 
 env:  
-  S3_BUCKET_NAME: ward-build 
+  S3_BUCKET_NAME: freelec-springboot2-webservice-zigimi-build
   PROJECT_NAME: freelec-springboot2-webservice
   CODE_DEPLOY_APP_NAME: freelec-springboot2-webservice                    #(15)
   CODE_DEPLOY_GROUP_NAME: freelec-springboot2-webservice-group
