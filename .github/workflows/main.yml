@@ -61,7 +61,7 @@ jobs:
       shell: bash
       
     - name: Generate deployment package # (final)
-      run: 
+      run: |
         mkdir -p before-deploy
         cp scripts/*.sh before-deploy/
         cp appspec.yml before-deploy/
